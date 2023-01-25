@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)[![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)](https://aur.archlinux.org/packages/boo-grub-git)
 
-> A dark theme for [GRUB](https://gnu.org/software/grub/).
+> A dark [GRUB](https://gnu.org/software/grub/) bootloader theme based on Dracula grub
 
 ![Screenshot](./assets/grub.png)
 
@@ -60,6 +60,7 @@ https://www.jeremymorgan.com/tutorials/linux/how-to-reinstall-boot-loader-arch-l
 ## Credit
 
 - [Ghost profile](https://www.flaticon.com/free-icon/ghost_2085034)
+- [Dracula GRUB](https://github.com/dracula/grub/)
 - [Tokyo-Night GRUB](https://github.com/mino29/tokyo-night-grub/)
 
 ## License
