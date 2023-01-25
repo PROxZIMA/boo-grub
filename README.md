@@ -1,6 +1,6 @@
 # Boo for [GRUB](https://gnu.org/software/grub/)
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)[![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)](https://aur.archlinux.org/packages/boo-grub-git)
 
 > A dark theme for [GRUB](https://gnu.org/software/grub/).
 
@@ -11,9 +11,13 @@ It should be compatible with all linux distros that use grub.
 
 ## Installation
 
-<!-- ### AUR
+### AUR
 
-For Arch users, the theme is available from the AUR [here](https://aur.archlinux.org/packages/boo-grub-git). Install it with your favorite AUR helper: `paru boo-grub-git` -->
+For Arch users, the theme is available from the AUR [here](https://aur.archlinux.org/packages/boo-grub-git).
+
+1. Install it with your favorite AUR helper: `paru boo-grub-git`
+
+2. Follow steps 3. and 4. given below.
 
 ### Manually
 
@@ -27,7 +31,7 @@ $ cd boo-grub
 2. Copy the whole `boo` directory to grub themes
 
 ```bash
-$ sudo cp -r boo /boot/grub/themes
+$ sudo cp -r boo /usr/share/grub/themes
 ```
 
 3. Edit grub config file
@@ -36,7 +40,7 @@ $ sudo cp -r boo /boot/grub/themes
 $ sudo vim /etc/default/grub
 ```
 
-change `#GRUB_THEME=` to `GRUB_THEME="/boot/grub/themes/boo/theme.txt"`
+change `#GRUB_THEME=` to `GRUB_THEME="/usr/share/grub/themes/boo/theme.txt"`
 
 4. Update grub using
 
